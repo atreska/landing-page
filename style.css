@@ -153,3 +153,42 @@ main h2 {
     margin-left: auto;
     font-size: 20px;
 }
+
+.cta {
+    padding: 6em;
+
+}
+
+.cta-container {
+    background-color: #3882f6;
+    color: #e5e7eB;
+    padding: 2em;
+    display: flex;
+    justify-content: center;
+    max-width: 800px;
+    margin: auto;
+    border-radius: 10px;
+}
+
+.info-container {
+    display: flex;
+    flex: 1;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 600px;
+}
+
+.info p {
+    font-weight: 200;
+    font-size: 14px;
+}
+
+.info-container a {
+    text-decoration: none;
+    color: #e5e7eB;
+    font-size: 14px;
+    font-weight: 400;
+    border: 1px solid #e5e7eB;
+    padding: .3em 1.3em;
+    border-radius: 7px;
+}
