@@ -10,8 +10,6 @@ body {
     flex-direction: column;
 }
 
-.container {}
-
 .nav {
     display: flex;
     justify-content: center;
@@ -19,7 +17,7 @@ body {
 }
 
 .nav-container {
-    max-width: 1200px;
+    max-width: 1000px;
     display: flex;
     flex: 1;
     justify-content: space-between;
@@ -54,7 +52,7 @@ body {
 }
 
 .hero-container {
-    max-width: 1200px;
+    max-width: 1000px;
     display: flex;
     flex: 1;
     justify-content: space-between;
@@ -70,7 +68,7 @@ body {
     background-color: #3882f6;
     color: #e5e7eB;
     text-decoration: none;
-    padding: .2em 1.2em;
+    padding: .3em 1.2em;
     border-radius: 6px;
     font-weight: 500;
     flex: 1;
@@ -87,8 +85,7 @@ body {
 .right-hero {
     background-color: rgb(130, 130, 130);
     flex: 1;
-    max-width: 600px;
-
+    max-width: 500px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -140,7 +137,6 @@ main h2 {
 
 .container {
     max-width: 800px;
-    border: 2px solid red;
     display: flex;
     flex-direction: column;
 
@@ -191,4 +187,16 @@ main h2 {
     border: 1px solid #e5e7eB;
     padding: .3em 1.3em;
     border-radius: 7px;
+}
+
+.footer {
+    background-color: #1f2937;
+    color: white;
+    padding: 2em;
+    text-align: center;
+}
+
+.footer h4 {
+    font-family: 8px;
+    font-weight: 100;
 }
